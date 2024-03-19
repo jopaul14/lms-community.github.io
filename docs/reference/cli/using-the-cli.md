@@ -5,7 +5,7 @@ title: Using the command-line interface
 
 # Using the command-line interface
 
-The complete documentation of the CLI API can be found within your LMS installation (Help->Technical Information->Command Line Interface).
+There are two ways to use the CLI commands: using a raw socket Telnet style connection, or using the JSON/RPC interface over the HTTP protocol.
 
 ## Telnet
 
