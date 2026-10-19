@@ -8,6 +8,7 @@
 	- Implement a WebSocket client in the Default skin, allowing for real-time status change pushes from the server to the web browser.
 	- Allow plugins to provide custom fonts to be used when rendering non-latin text on ip3k based players.
 	- Added Catalan translation - thanks @rroset!
+	- Improved Norwegian (Bokmål) translation - thanks @LarsSimonsen!
 	- [#1679](https://github.com/LMS-Community/slimserver/pull/1679) \- CLI: the `alarms` query returns `usesdefaultvolume` (1 when an alarm follows the player's default alarm volume), and `alarm add|update` accept `usedefaultvolume:1` to return an alarm to it - so clients can show and reset an alarm's own volume (@michalstrelec)
 	- [#1286](https://github.com/LMS-Community/slimserver/issues/1286) \- Display album cover for AudioAddict stations (inspired by some work by @mcduman)
 	- [#1541](https://github.com/LMS-Community/slimserver/pull/1541) \- Add per-player timezone support: players can now display date and time, and fire alarms, in their own timezone rather than the server's. (@boudekerk)
