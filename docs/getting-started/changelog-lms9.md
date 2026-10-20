@@ -8,7 +8,7 @@
 	- Implement a WebSocket client in the Default skin, allowing for real-time status change pushes from the server to the web browser.
 	- Allow plugins to provide custom fonts to be used when rendering non-latin text on ip3k based players.
 	- Added Catalan translation - thanks @rroset!
-	- Improved Norwegian (Bokmål) translation - thanks @LarsSimonsen!
+	- Improved Norwegian (Bokmål) translation, add support for Nynorsk - thanks @LarsSimonsen!
 	- [#1679](https://github.com/LMS-Community/slimserver/pull/1679) \- CLI: the `alarms` query returns `usesdefaultvolume` (1 when an alarm follows the player's default alarm volume), and `alarm add|update` accept `usedefaultvolume:1` to return an alarm to it - so clients can show and reset an alarm's own volume (@michalstrelec)
 	- [#1286](https://github.com/LMS-Community/slimserver/issues/1286) \- Display album cover for AudioAddict stations (inspired by some work by @mcduman)
 	- [#1541](https://github.com/LMS-Community/slimserver/pull/1541) \- Add per-player timezone support: players can now display date and time, and fire alarms, in their own timezone rather than the server's. (@boudekerk)
@@ -85,6 +85,7 @@
 
 	- Make sure we encode user input in search queries to prevent XSS attacks.
 	- [#1357](https://github.com/LMS-Community/slimserver/issues/1357) \- Random Mix: continuous mode could stop adding tracks right after the first batch, as the plugin didn't recognise its own `loadtracks` request (@michalstrelec).
+	- [#1689](https://github.com/LMS-Community/slimserver/pull/1689) \- Random Mix: continuous mode could still end right after the first batch while a web client (eg. Material) was connected, as Cometd overwrote the source of the notified request.
 	- [#1641](https://github.com/LMS-Community/slimserver/issues/1641) \- Trying to play a folder for which exists a playlist of the same name, the playlist would be played.
 	- [#1676](https://github.com/LMS-Community/slimserver/issues/1676) \- Cannot save Media Folders if invalid value is still in the list (eg. removed folder).
 	- [#1680](https://github.com/LMS-Community/slimserver/pull/1680) \- Don't crash the info menus on an id that doesn't exist (@jonstahl).
