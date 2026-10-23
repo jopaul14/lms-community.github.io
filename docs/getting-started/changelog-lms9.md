@@ -40,7 +40,8 @@
 - Platform Support:
 
 	- Improve SSL support for Windows and macOS builds, updating Mozilla::CA to the latest version.
-	- Update Audio::Scan module to version 1.13 (Windows, macOS, Linux Perl 5.32 x86\_64, 5.36 x86\_64/aarch64, 5.40 x86\_64) (@ralphy, @arigit, @cheesestraws)
+	- Update Audio::Scan module to version 1.13 (macOS, Linux Perl 5.32 x86\_64, 5.36 x86\_64/aarch64, 5.40 x86\_64) (@ralphy, @arigit, @cheesestraws)
+	- Update Audio::Scan module to version 1.14 (Windows) (@ralphy)
 	- RPM packages cleanup to better integrate with system standards (@mavit)
 	- Removed unused Mac/Windows code from the auto-rescan process (@mavit)
 	- [#106](https://github.com/LMS-Community/slimserver-platforms/pull/106) \- Removal of SYSV Init support and better systemd support in the RPM package for Red Hat/SUSE (@JohanSaaw, @mavit)
@@ -68,6 +69,8 @@
 	- [#1651](https://github.com/LMS-Community/slimserver/pull/1651) \- An artist could be shown with another artist's picture, if they shared the role on a common album.
 	- [#1662](https://github.com/LMS-Community/slimserver/pull/1662) \- Fix disappearing library\_track rows on metadata updates (@darrell-k)
 	- [#1669](https://github.com/LMS-Community/slimserver/pull/1669) \- Fix library view artist lists (@darrell-k)
+	- [#1696](https://github.com/LMS-Community/slimserver/pull/1696) \- Fix slow start of remote playlists (eg. HLS) (@falkenhawk)
+	- [#1700](https://github.com/LMS-Community/slimserver/pull/1700) \- Fix memory leak on every proxied HTTPS stream (@benroeder)
 
 - Other:
 
@@ -89,6 +92,7 @@
 	- [#1641](https://github.com/LMS-Community/slimserver/issues/1641) \- Trying to play a folder for which exists a playlist of the same name, the playlist would be played.
 	- [#1676](https://github.com/LMS-Community/slimserver/issues/1676) \- Cannot save Media Folders if invalid value is still in the list (eg. removed folder).
 	- [#1680](https://github.com/LMS-Community/slimserver/pull/1680) \- Don't crash the info menus on an id that doesn't exist (@jonstahl).
+	- [#1692](https://github.com/LMS-Community/slimserver/issues/1692) \- Incorrect YEAR values for M4A files when DAY is an array reference.
 
 - Other:
 
