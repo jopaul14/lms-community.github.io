@@ -93,6 +93,7 @@
 	- [#1676](https://github.com/LMS-Community/slimserver/issues/1676) \- Cannot save Media Folders if invalid value is still in the list (eg. removed folder).
 	- [#1680](https://github.com/LMS-Community/slimserver/pull/1680) \- Don't crash the info menus on an id that doesn't exist (@jonstahl).
 	- [#1692](https://github.com/LMS-Community/slimserver/issues/1692) \- Incorrect YEAR values for M4A files when DAY is an array reference.
+	- [Fix error downloading plugin updates from Github due to excessively long headers.](https://forums.lyrion.org/forum/user-forums/logitech-media-server/1839647-error-downloading-plugin-updates)
 
 - Other:
 
