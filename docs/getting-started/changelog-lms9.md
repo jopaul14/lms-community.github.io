@@ -78,6 +78,7 @@
 	- [#1700](https://github.com/LMS-Community/slimserver/pull/1700) \- Fix memory leak on every proxied HTTPS stream (@benroeder)
 	- [#1711](https://github.com/LMS-Community/slimserver/pull/1711) \- keep the NO\_ARTIST fallback contributor when updating a track (@jochen)
 	- [#1722](https://github.com/LMS-Community/slimserver/pull/1722) \- Fix for smart crossfade not working across albums (@oreillymj)
+	- [Fix TLS 1.3 delays](https://forums.lyrion.org/forum/developer-forums/developers/1843047) (thanks for the investigation, @crystalgipsy)
 
 - Other:
 
