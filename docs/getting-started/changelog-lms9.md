@@ -28,6 +28,7 @@
 	- Improve artwork matching based on track metadata.
 	- Allow a plugin to provide custom bitrate/sample size handling by providing a Slim::Player::Song::handleSampleAndBitrate() method.
 	- The plugin manager now shows a warning about the potential security implications of installing third-party plugins on first access.
+	- Try to fix a few memory leaks in various places.
 	- Updated French translation - thanks @Franck-Berry!
 	- Updated Swedish translation - thanks @JohanSaaw!
 	- [#1548](https://github.com/LMS-Community/slimserver/pull/1548) \- Updated Czech translation (@mipa87)
